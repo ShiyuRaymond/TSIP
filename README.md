@@ -15,8 +15,5 @@ https://github.com/ccc000-png/Tracker4Cap
 
 # Pretrained Models
 
-We provide pretrained checkpoints:
+We provide pretrained checkpoints: https://drive.google.com/drive/folders/1fOhUmnYUN7OiZJYZjE0k8TjsKoU8Ak16?usp=drive_link
 
-MSVD: <REPLACE_WITH_YOUR_MODEL_PATH_OR_LINK>
-
-MSR-VTT: <REPLACE_WITH_YOUR_MODEL_PATH_OR_LINK>
