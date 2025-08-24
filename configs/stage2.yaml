@@ -1,0 +1,25 @@
+# configs/yoloworld_caption.yaml
+
+stage: 2  
+
+model:
+  lr: 1e-3
+  dropout: 0.15
+  grad_clip: 1.0
+  temperature: 0.07
+  embed_dim: 512
+  llm_name: "facebook/opt-1.3b"
+  hard_prompt: "a video of "
+  max_length: 50
+  prompt_len: 32
+  llm_hidden_size: 1024
+  eval_config: /workspace/AskVideos-VideoCLIP/eval_configs/video_clip_v0.1.yaml
+
+trainer:
+  max_epochs: 50
+  gpus: 4
+  logger_name: "stage2"
+  gradient_clip: 1.0
+  log_dir: "/workspace/YOLO-World/scripts/yoloworld_lightning/logs/msrvtt"
+  precision: '16-mixed'
+  # precision: 32

@@ -1,0 +1,22 @@
+# configs/yoloworld_caption.yaml
+
+stage: 1  
+
+model:
+  lr: 1e-4
+  dropout: 0.1
+  grad_clip: 1.0
+  temperature: 0.07
+  embed_dim: 512
+  llm_name: "bert-base-uncased"
+  itm_loss_weight: 0.5
+  max_length: 50
+
+
+trainer:
+  max_epochs: 100
+  gpus: 4
+  gradient_clip_val: 1.0
+  logger_name: "stage1"
+  log_dir: "/workspace/YOLO-World/scripts/yoloworld_lightning/logs"
+  precision: '16-mixed'

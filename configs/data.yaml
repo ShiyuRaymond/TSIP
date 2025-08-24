@@ -1,0 +1,13 @@
+train_json: /workspace/data/msrvtt/anno/train.json
+val_json: /workspace/data/msrvtt/anno/val.json
+test_json: /workspace/data/msvd/anno/test.json
+
+video_dir: /workspace/data/msvd/YouTubeClips
+feature_dir: /workspace/data/msvd/features
+pixel_dir: /workspace/data/msrvtt/pixels
+batch_size: 36
+num_workers: 8
+max_caption_length: 32
+eval_cfg: /workspace/AskVideos-VideoCLIP/eval_configs/video_clip_v0.1.yaml
+frames_dir: /workspace/data/msrvtt/frames_32
+

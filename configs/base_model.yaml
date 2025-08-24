@@ -1,0 +1,9 @@
+yolo_config_path: ./YOLO-World/configs/pretrain/video_caption.py
+yolo_work_dir: /work_dir
+yolo_checkpoint: ./YOLO-World/pretrained_weights/yolo_world_v2_l_obj365v1_goldg_pretrain_1280ft-9babe3f6.pth
+
+visual_feat_dim: 512
+projector_dim: 512
+soft_prompt_len: 32
+hidden_size: 768
+original_dim: 1024
